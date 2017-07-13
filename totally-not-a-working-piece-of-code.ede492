@@ -1,0 +1,9 @@
+DEFINE Class.technology();
+
+var1 = Classroom.asignments.week-one-journal;
+var2 = Classroom.getCreative(var1);
+
+print("Behold the most magnifest and creative journal entry in the history of this class:", ...
+  complexStructureToString(var2), "and marvel!");
+  
+ end

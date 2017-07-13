@@ -1,9 +1,9 @@
-DEFINE Class.technology();
+DEFINE Classroom.Technology(); % Initialize the subclass Technology, from the class Classroom
 
-var1 = Classroom.asignments.week-one-journal;
-var2 = Classroom.getCreative(var1);
+var1 = Classroom.asignments.week-one-journal; % instatiates the variable week-on-journal from the class Classroom
+var2 = Classroom.getCreative(var1); % run the variable var1 through the fundtion getCreative in order to make it better
 
 print("Behold the most magnifest and creative journal entry in the history of this class:", ...
-  complexStructureToString(var2), "and marvel!");
+  complexStructureToString(var2), "and marvel!"); % prints on the screen the best journal entry in existence
   
  end

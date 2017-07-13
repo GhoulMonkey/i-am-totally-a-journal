@@ -6,4 +6,4 @@ var2 = Classroom.getCreative(var1); % run the variable var1 through the fundtion
 print("Behold the most magnifest and creative journal entry in the history of this class:", ...
   complexStructureToString(var2), "and marvel!"); % prints on the screen the best journal entry in existence
   
- end
+end
